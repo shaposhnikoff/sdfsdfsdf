@@ -11,5 +11,5 @@ RUN adduser --disabled-password --gecos '' exporter
 #COPY emr_terminated_with_errors_v3.py /app/
 USER emr_exporter
 
-EXPOSE 80
+EXPOSE 8090
 #CMD ["python", "/app/emr_terminated_with_errors_v3.py"]
